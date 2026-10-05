@@ -325,8 +325,89 @@ One-liners learned in this project:
 - A mask built from a colour test grabs every object of that colour.
 - Read the real balance before the run, not after.
 - Check the commit identity before the first push.
+- Design the artifact out of the story: a prop that must be handed off or thrown costs more than the story gains.
+- Cap attempts at two, then change the beat.
 
-## 13. Where things stand
+## 13. Bitter lessons, and the playbook for the next shots
+
+About half of the credits and about three quarters of the API money bought clips that are not in the film. This section adds that up, lists every fix, and turns the failures into rules for the remaining shots.
+
+### 13.1 What the artifacts cost
+
+Spend on video since shot 1, from the balance reads (section 5). A "kept" clip is one that is in the final film.
+
+| | CLI credits | API dollars |
+|---|---|---|
+| Total video spend | 120 | about 7.06 |
+| Kept clips (shot 1 attempt 2, bridge remake 2, shot 4 attempt 3 on the CLI; shot 2 attempt 2d and shot 3 on the API) | 60 | about 1.91 |
+| **Spent on clips that were not kept** | **60 (50 percent)** | **about 5.15 (73 percent)** |
+
+At the price of the 100-credit pack ($6.25, so $0.0625 per credit), the total is about $14.5 and the part not kept is about $8.9, which is 61 percent. The plan credits were not bought at that rate, so read the 61 percent as an estimate. The agent's time is not in these numbers. The repaints and the teeth edit cost $0 but took a long series of tool calls (sections 4.2 to 4.4).
+
+### 13.2 Every fix, in one table
+
+| # | Artifact | Where | What was tried | Cost | Result |
+|---|---|---|---|---|---|
+| 1 | Extra gold idols at the cliff edge (one to three small copies, one growing into a stack) | shot 2, all five attempts | Re-roll with a stronger lock ("no other gold"); then OpenCV inpainting, twice (v1 cleaned part of the clip, v2 all 145 frames) | four re-rolls (about $3.8) plus two repaints | Gone, with a dark smudge and a blurred hand left behind |
+| 2 | The hero cannot lift the satchel strap over his head and dispose of the satchel | shot 2, all attempts | Prompt rewritten as steps: hat off, strap over head with the left hand, dump the satchel, leap | the same re-rolls | **Not solved.** The final clip shows a plausible version. The user still sees it as wrong. |
+| 3 | The satchel lands on the ledge, slides along it and stops at the left edge | shot 2, attempt 2d | Four repaint approaches failed; the fifth bounces the satchel off the ledge into the waterfall | $0, a long series of tool calls | Accepted, with a grey boxy satchel and faint smudges |
+| 4 | Hand confusion: the hat flew from the wrong hand; the satchel went toward the idol hand; the idol was thrown away with the satchel | shot 2, attempts 2b and 2c | The user edited the prompt (2d); the left and right sides were rewritten | two re-rolls (about $1.9) | Fixed in 2d |
+| 5 | Wrong hall, hero looks back at the camera, waterfall far away | bridge, API attempt | Rebuilt on the CLI with a start frame and an end frame | $0.48, then 12 credits | Fixed. Then **a replaced shot 2 broke the join** and a third bridge cost 12 more credits. |
+| 6 | Two cuts in a shot that must be one take | shot 1, attempt 1 | Prompt rewritten as one continuous take | 24 credits | Fixed |
+| 7 | Friendly grin, idol as large as the hero's head, waterfall in frame | shot 4, attempt 1 | Centre panel of the idol sheet for the end state, a start frame, size and "no waterfall" locks | $0.96 | Grin and waterfall fixed. The idol is still too large. |
+| 8 | Teeth not menacing enough | shot 4, attempt 3 | Pixel edit of the mouth (section 4.4) | $0 | Accepted |
+| 9 | No blinks (the request came after the run started) | shot 4, attempt 2 | Blink beat added to the prompt, re-run | 24 credits | Fixed in attempt 3 |
+
+### 13.3 What the artifacts have in common
+
+These are the agent's readings of the evidence. They are not proven. Nobody ran a controlled test.
+
+1. **The model fails at contact choreography.** Items 2, 3 and 4 are all a hand and an object: a strap over a head, a throw, a hand-off. Items 1 and 7 are the idol's size and number. Running, swimming, looking up and an expression change worked on the first or second try (shot 3 took one attempt). The hardest beat in the film, the strap, was a body and an object in contact.
+2. **Long single takes multiply the failures.** Shot 2 had five beats in 8 s (run, hat, strap, satchel, leap), and each beat could break. The "one continuous take, no visible cut" rule was the user's. It is the main reason a re-roll costs a whole shot.
+3. **Every reference image is a possible source of a duplicate.** The idol sheet went into shot 2 although the idol is a small object seen from behind. A copy of the idol appeared on the ledge in all five attempts. The cause was not tested. A reference image says what an object looks like. It does not say how many to draw.
+4. **Left and right are unreliable when the camera is behind the hero.** The prompts used the hero's left and right. The model's mistakes in 2b and 2c are the wrong side in screen terms.
+5. **A list of things that must not appear may name them.** "No waterfall" did not prevent the waterfall in shot 4 attempt 1. It worked in attempt 3, where a start frame was also given. The agent suspects the start frame did the work.
+6. **A fault that touches the action cannot be painted out.** A static copy of the idol on a ledge could be painted out. A satchel that must fall, bounce and leave the frame took five approaches. A strap that must pass over a head cannot be painted at all.
+7. **Changes of mind after a run are the most expensive kind.** The blink request arrived mid-run. The boat shot was written, priced and dropped. A replaced shot 2 invalidated the bridge.
+8. **Prompt length did not buy control.** The prompts grew from about 700 words to 1,365. The longest prompt (shot 4 attempt 3) worked, but the idol was still the wrong size, so the length did not fix the size.
+
+### 13.4 The playbook for shots 5 to 7
+
+The rules below are ordered by how much money each would have saved.
+
+1. **Design the artifacts out of the story.** Do not ask for a hand-off, a strap, a throw or a catch. The hero keeps the idol in one hand for the whole film. If an object must leave, it leaves the frame at the moment it leaves the hand (up, out of frame, or toward the camera), so the model never draws it landing. The satchel and the hat are gone. Do not bring new props.
+2. **One beat per shot, 4 to 6 s.** Cut between beats on motion. The user's "one continuous take" rule means no cut *inside* a beat. A cut *between* beats hides a continuity error for free. This is the largest saving: a faulty beat costs 12 credits (4 s) instead of 24 (8 s), and one bad beat does not sink the shot.
+3. **Approve stills before video.** A still costs 0.5 credit (GPT Image 2.5). A 4 s video costs 12 credits. Make the first and last frame of each shot as stills, approve them, and then generate the video between them with `--start-image` and `--end-image` on the CLI. This is how the second and third bridges and shot 4 attempt 3 were made, and their joins held up in the user's review.
+4. **Chain with start frames.** Every shot starts on the last frame of the previous shot. Shot 4 did this and has a continuous join. This also removes the "check the join" problem when a shot is replaced: replace a shot, and regenerate only its successor's start.
+5. **Cut the references to the minimum.** Start frame, plus one still of the face if the face is not in the start frame. Do not pass a three-state idol sheet. Pass one idol still in the state the shot needs (asleep, waking or awake). See 13.5.
+6. **Short prompts, one beat, sides in screen terms.** Aim for 250 to 400 words. Write "on the left of the frame", not "his left hand". Write "exactly one idol, in his hand" once instead of repeating the idol's description in every section.
+7. **Cap the attempts at two.** If the second attempt still fails, change the beat or cut away from it. Do not run a third time. Shot 2 had five attempts and two repairs.
+8. **Triage a fault before paying.** *Structural fault* (the action is wrong): rewrite the beat or cut away. *Small static background object:* paint it out only if it takes under an hour of the agent's time. *Moving object that interacts with the hero:* re-roll once, then cut away.
+9. **Probe cheaply.** A 4 s probe at 480p on the API costs about $0.48. Use it to test the one risky beat. It cannot test an 8 s action, so it is only worth running on a beat that is short.
+10. **Freeze the beat list before the run.** The user signs off on the beats of a shot, the first frame and the last frame, then the agent runs. Requests such as "add blinks" come before the run, not during it.
+11. **Re-check joins whenever a neighbour changes.** Replace a clip, then regenerate or re-check both joins before sending a stitch.
+12. **Name the wallet** (section 5) and **read the balance before the run**.
+13. **A frame checklist for every clip, before the user sees it:** how many idols; which hand holds the idol; which props are present; is the waterfall in frame; do the first and last frames match their neighbours. The agent already did most of this by eye. Doing it first would have caught items 1 and 4 one attempt earlier.
+
+### 13.5 Do we need the character sheet?
+
+Short answer: **a clean face reference helps, but the multi-panel sheets are not worth their side effects, and the idol sheet probably did harm.**
+
+The reasoning. This is not a 3D or game project, so nothing is rigged or modelled. A video model does not read a "sheet" as a model. It reads it as an image that conditions the video. So the real question is what conditioning is cheapest and safest.
+
+- **What the hero sheets bought.** The face, hat, jacket and trousers stayed recognisable in shots 1 to 4, and the user accepted the identity in every shot. The cost was about 0.5 credit per sheet. That is the cheapest thing in the project. Two things worked against it. The first wet sheet still showed the satchel in its body panels, so it had to be regenerated. And every prompt needed locks ("sheet background, panel layout and dividers NOT inherited") so that the model did not copy the grey backdrop and panel lines.
+- **What the start frame does instead.** When the start frame shows the hero's face and costume, the first image already carries the identity. The bridge starts on the last frame of shot 1 and the identity held. In shot 4 the start frame showed only a tiny figure in the rapids, so the face came from the wet sheet, and there the sheet did real work. So the sheet matters when a shot starts without a clear view of the face, for example the first shot of a new scene.
+- **The idol sheet is the doubtful one.** It shows three states side by side. In shot 4 attempt 1 the model took the awake panel's wide eyes and broad grin, which is the wrong villain. In shot 2 a copy of the idol appeared at the ledge in every attempt, although the idol was a small object seen from behind. The agent suspects that the reference caused the duplicates. This was not tested. A single-state still per shot would not carry that risk.
+- **Recommendation.** Keep one clean hero still (face, hat or no hat, matching the shot) as a reference when the start frame does not show the face. Drop the multi-panel hero sheets for new shots. Replace the idol sheet with one still per state. Test the suspicion once and cheaply: run the same 4 s beat with and without the idol sheet, about $0.96 on the API.
+
+### 13.6 Questions for the user
+
+1. **The ending.** The old shots 5 to 7 (boat, idol thrown, sinking, console) no longer fit. What happens after the idol grins? A shorter ending with one beat per shot is the cheapest.
+2. **Relax the take rule?** Allow cuts between beats (but not inside a beat)? This is the biggest saving.
+3. **Run the with-and-without idol-sheet test?** About $0.96.
+4. **Stills first?** Approve a first and last frame as images before each video, at 0.5 credit per image.
+
+## 14. Where things stand
 
 - The film: <https://az9713.github.io/raider-of-lost-art/>
 - The repository: <https://github.com/az9713/raider-of-lost-art>
