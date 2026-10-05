@@ -1,0 +1,34 @@
+SCENE CONTEXT
+A moment after he plunged into the waterfall. The young explorer bursts up through the white water into the churning pool at the foot of the waterfall, gasping, soaked, with no hat and no satchel, the small gold idol thrust high above the water in his right hand. He is swept into the rapids and swims hard with one arm, downstream. He looks for help. The river is empty: no boat, no one. Ahead, the river drops away over a dark lip into mist. Eight seconds, ONE continuous take with no cuts, no dialogue.
+
+ACTIVE REFERENCES
+Image 1: the wet hero character sheet, "the explorer", WET and with NO hat and NO satchel. Same face, same short bleached blonde hair (now plastered flat with water, darker and golden-tinted from the wet, still clearly blonde), the same scratch on the cheek, a soaked dark-brown leather jacket, soaked khaki shirt with rolled sleeves, soaked olive trousers, muddy boots. 100% matches the reference. Identity, face and wardrobe locked. The face comes from the close-up panel on the right; the two headless panels show the soaked costume only. He carries NOTHING except the idol. Sheet background, panel layout and dividers NOT inherited.
+Image 2: the small polished-gold idol. Use ONLY the left panel, the ASLEEP state: eyes closed, thin closed mouth, egg-shaped head, round ear discs, spiral engravings, cross-legged tiny body, small dark stone base. Palm-sized, about as tall as his hand from wrist to fingertip, clearly smaller than his head. The center and right panels are NOT used. Sheet background NOT inherited.
+Image 3: the river at the foot of the waterfall. Controls the location, the water, the mist, the colour and the mood. Reference framing NOT inherited.
+
+LOCATION MAP
+The plunge pool at the foot of the huge waterfall from Image 3: the white curtain of the waterfall thundering behind and above, mist rolling off it, steep green jungle walls on both sides. From the pool the river runs away from the waterfall as white-water rapids, bending slightly, and further along it drops away over a dark lip into mist. The river is empty: no boat, no people, no objects. All the water is one continuous body of water, same colour, same foam, same scale from the pool to the rapids to the lip.
+
+FIRST FRAME / BLOCKING
+Low water-level shot, the waterfall roaring behind him. The surface of the pool is churning white. His head and the idol have not broken the surface yet.
+
+FORMAT MODE
+ONE continuous take, no cuts, no edits, no jump, no change of angle. A single unbroken camera move. First part, about 3 seconds: the camera sits at water level in the churning pool, facing the waterfall behind him. He bursts up through the surface, gasping, spluttering water, the idol raised high in his right hand. The current grabs him. Second part, about 5 seconds, the same take: the camera swings around and rises above the water as it follows him downstream, turning to face DOWNSTREAM, the same direction he swims. He swims hard with his left arm and his legs, the idol held high in his right hand, glancing from side to side for help. The camera rises to a wide, high view down the empty river: the rapids ahead of him and, far in front, the dark lip where the river drops into mist. The take ends on that wide view, him small in the foreground water, still swimming toward the drop.
+
+PERFORMANCE
+Shock, then fierce effort. He gasps, coughs, shakes water out of his eyes. His face shows desperation as he looks left and right and finds no boat, then dread as he sees the drop ahead. One arm stays raised with the idol whatever the current does. No speaking.
+
+PHYSICS
+The current pulls him down the river faster than he swims. White water breaks over his shoulders, he sinks to the chin and surfaces again. Water streams off the idol and off his raised arm. His wet hair is plastered flat to his head. His jacket billows and clings. Spray and mist drift across the frame. The idol is held clear of the water at all times.
+
+LIGHTING
+Cool teal-green overcast daylight, soft, no hard sun. Pale foam, deep green jungle, grey-green water. No warm light except the natural reflection on the wet gold.
+
+AUDIO
+The waterfall roar behind him, then fading and mixing with the rushing of the rapids. His gasping breath, splashing, water streaming. A deeper, growing rumble ahead, the drop. No engine, no speech, no music.
+
+STYLE
+Photoreal live-action adventure thriller, 16:9 anamorphic look, fine film grain, muted green and teal palette. Same look and colour grade as the previous shots.
+
+POSITIVE LOCKS
+He has NO hat and NO satchel, and nothing hangs from his shoulders or neck. His bare, wet, bleached blonde hair is visible in every frame, never black or brown. The idol stays palm-sized, polished gold, eyes closed, thin closed mouth, small stone base attached, in his RIGHT hand, held above the water in every frame. No glow, no cracks, no light effects on the idol. His face matches Image 1. The river is EMPTY: no boat and no people anywhere in the frame at any point. The waterfall and the water match Image 3 with no seam between the pool and the rapids. There are no cuts, no jump and no change of angle at any point: one continuous camera move from the first frame to the last.

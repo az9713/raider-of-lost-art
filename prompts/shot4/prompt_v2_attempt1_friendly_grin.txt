@@ -1,0 +1,34 @@
+SCENE CONTEXT
+A calm stretch of the river, far downstream of the rapids. The young explorer has survived the waterfall and the white water. He floats upright in slow, deep water, soaked, with no hat and no satchel, catching his breath. He raises his left fist in triumph, the small gold idol held tight in his right hand, and looks up to the sky with an intense, shaken face, thanking God that he cheated death. At the moment he finally relaxes, the idol in his right hand opens its eyes and bares its teeth in a devilish grin, and he does not see it. Eight seconds, ONE continuous take with no cuts, no dialogue.
+
+ACTIVE REFERENCES
+Image 1: the wet hero character sheet, "the explorer", WET and with NO hat and NO satchel. Same face, same short bleached blonde hair (plastered flat with water, darker and golden-tinted from the wet, still clearly blonde), the same scratch on the cheek, a soaked dark-brown leather jacket, soaked khaki shirt with rolled sleeves. 100% matches the reference. Identity, face and wardrobe locked. The face comes from the close-up panel on the right; the two headless panels show the soaked costume only. He carries NOTHING except the idol. Sheet background, panel layout and dividers NOT inherited.
+Image 2: the small polished-gold idol, three states on one sheet. LEFT panel = ASLEEP: eyes closed, thin closed mouth. RIGHT panel = AWAKE: eyes open, mouth in a grin showing small teeth. Use the LEFT panel for the first part of the shot and the RIGHT panel for the end of the shot, but take only the STATE from the right panel (eyes open, teeth showing), NOT its intensity: the right panel's wide round eyes and broad friendly grin are too big and too cartoonish for this shot. The CENTER panel is not used. In every state the idol is the same object: palm-sized, about as tall as his hand from wrist to fingertip, clearly smaller than his head, egg-shaped head, round ear discs, spiral engravings, cross-legged tiny body, small dark stone base attached. Sheet background NOT inherited.
+Image 3: the river. Controls the water, the mist, the colour and the mood. Reference framing NOT inherited. The water in this shot is calmer than in Image 3: wide, slow and deep, the white foam gone.
+
+LOCATION MAP
+A wide, slow, deep stretch of the same river: grey-green water with a gentle current and small ripples, steep green jungle walls on both banks, thin mist lifting off the water, a pale overcast sky above. The rapids and the waterfall are far behind and are not in frame. No boat, no people, no objects anywhere. The same river, the same colour, the same light as the previous shots.
+
+FIRST FRAME / BLOCKING
+Medium shot at water level, from the front, chest-up. He floats upright, the water at his chest, head and shoulders above the surface, his chest heaving. His right arm is raised beside his head and holds the idol upright and clear of the water; the idol is ASLEEP, eyes closed. His left arm is still in the water. He looks down and ahead, gasping, spent.
+
+FORMAT MODE
+ONE continuous take, no cuts, no edits, no jump, no change of angle. One slow camera move: a gentle, steady push-in from medium to a closer chest-up framing that keeps his face and the idol both in frame, with the idol sharp and clear at the edge of the frame beside his head. About 2 seconds: he catches his breath, chest heaving, water dripping off his chin. About 2.5 seconds: he lifts his left arm out of the water and raises the fist high, a held, shaking fist of triumph, and tips his head back to look straight up at the sky. About 1 second: he holds that pose, eyes up, lips moving without sound, and begins to let the tension go, his shoulders dropping. About 2.5 seconds: the idol in his right hand wakes. Its eyes open slowly, only partly, heavy-lidded and narrow, fixed on him, its head tilts a few degrees toward him, and its mouth parts into a slow, tight, crooked grin that bares a row of small teeth, narrower and colder than the grin on the sheet. The take ends on the awake idol in sharp focus at the edge of the frame, grinning, with him still looking up at the sky beside it and not yet aware of it.
+
+PERFORMANCE
+Exhaustion, then a flood of disbelief and gratitude. His face is intense and shaken, eyes wet and wide, jaw tight, then lifting toward the sky as he thanks God. He is alive and he knows it. He does not look at the idol and does not notice it change. The fist stays raised. His right hand grips the idol tight the whole time. The idol's change is small and controlled: eyes open, a few degrees of head tilt, a slow crooked grin showing a row of small gold teeth. Menacing but real, not cartoonish, no exaggeration, no moving body, no limbs. No speaking.
+
+PHYSICS
+He treads water with slow leg kicks; the water laps at his chest, and small ripples spread around him. Water runs off his hair, his chin, his raised fist, his right arm and the idol. His jacket floats and clings. The idol is held clear of the water at all times and does not move except for the eyes, the mouth and the small head tilt.
+
+LIGHTING
+Cool teal-green overcast daylight, soft, no hard sun. Pale mist, deep green jungle, grey-green water. No warm light except the natural reflection on the wet gold.
+
+AUDIO
+The rapids far behind, fading to a soft rush of calm water. His ragged breathing, water lapping and dripping. A long, shaky exhale as he looks up. As the idol wakes: near silence, then a faint, quiet metallic click, then a low sound of something stirring. No engine, no speech, no music.
+
+STYLE
+Photoreal live-action adventure thriller, 16:9 anamorphic look, fine film grain, muted green and teal palette. Same look and colour grade as the previous shots.
+
+POSITIVE LOCKS
+He has NO hat and NO satchel, and nothing hangs from his shoulders or neck. His bare, wet, bleached blonde hair is visible in every frame, never black or brown. The idol stays palm-sized, polished gold, small dark stone base attached, in his RIGHT hand in every frame, held clear of the water, and he never lets go of it. The idol changes ONLY in its eyes, its mouth and a small head tilt: asleep and closed at the start, awake at the end, the same object. The awake idol has solid gold eyes with no pupils, only partly open and narrow, not wide and round, and a slow, tight, crooked, devilish grin showing a row of small teeth; it is subtle, cold and menacing, not friendly, not a cartoon, no glow, no cracks, no light effects, no fire, no smoke, no extra colours. His LEFT hand is the raised fist; his RIGHT hand holds the idol. His face matches Image 1. The river is EMPTY: no boat and no people anywhere in the frame at any point. There are no cuts, no jump and no change of angle at any point: one continuous camera move from the first frame to the last.

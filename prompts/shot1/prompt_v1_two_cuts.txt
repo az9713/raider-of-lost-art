@@ -1,0 +1,36 @@
+SCENE CONTEXT
+Inside an ancient, overgrown jungle temple chamber. Cool teal-green daylight falls through a collapsed roof. A young explorer lifts a small polished-gold idol off a stone altar. The temple reacts: dust falls and the floor shakes. He looks up, alarmed. Eight seconds, two cuts, no dialogue.
+
+ACTIVE REFERENCES
+Image 1: the hero character sheet, "the explorer". Same face, short bleached blonde hair, wide-brim tan felt hat, worn dark-brown leather jacket, khaki shirt with rolled sleeves, olive trousers, scuffed boots, brown canvas satchel. 100% matches the reference. Identity, face and wardrobe locked. The face comes from the close-up panel on the right; the two headless panels show the costume only. Sheet background, panel layout and dividers NOT inherited.
+Image 2: the small polished-gold idol. Use ONLY the left panel, the ASLEEP state: eyes closed, thin closed mouth. 100% matches that panel: egg-shaped head, round ear discs, spiral engravings, cross-legged tiny body, small dark stone base. Palm-sized, about 20 cm tall. The center and right panels are NOT used. Sheet background NOT inherited.
+Image 3: the ruined temple chamber. Controls environment, materials, light and mood only. Reference framing NOT inherited.
+
+LOCATION MAP
+Interior of the ruined chamber from Image 3. A weathered stone altar stands in the centre of the cracked flagstone floor. A shaft of teal daylight from the broken roof falls toward the altar, with mist and floating dust in the beam. Vine-covered carved walls behind. The idol sits on top of the altar. The camera works from the entrance side, facing the altar.
+
+FIRST FRAME / BLOCKING
+Wide-medium shot. The explorer stands at the altar, front three-quarter view, both hands reaching toward the idol. The idol sits on the altar top. The light shaft is behind him.
+
+FORMAT MODE
+Sequence of two cuts, no timecodes. The camera does not cut on its own, only at the cut points below.
+CUT 1, medium shot, slow push-in, about 5 seconds: the explorer lifts the idol with its small stone base off the altar in his RIGHT hand, carefully, eyes fixed on it, and studies it for a moment. As he studies it, a slow devilish grin spreads across his face, one corner of the mouth first, then wide, eyes bright and narrowed: the private smile of a man declaring a monumental victory known only to himself, no one else in the room to see it. Fine dust begins to sift down through the light beam. The idol stays in his right hand from this moment on.
+CUT 2, medium close-up, handheld, about 3 seconds: the floor begins to shake. The camera trembles. Dust and small stones fall from the ceiling and the vines sway. He looks up sharply toward the ceiling, alarmed, holding the idol tight in his right hand.
+
+PERFORMANCE
+Cut 1: careful hands, then the slow devilish grin of secret, monumental triumph, savouring the moment alone. Cut 2: the grin drops at once into sudden alarm: eyes widen, breath held, jaw tight. No speaking.
+
+PHYSICS
+The idol has real weight for its size and his wrist dips slightly as he lifts it. Dust drifts in the beam, then falls faster when the floor shakes. The cracks in the flagstones widen slightly. Vines sway.
+
+LIGHTING
+Cool teal-green daylight from the broken roof, soft fill, deep shadow in the corners. No warm light except the natural reflection on the gold.
+
+AUDIO
+Stone grinding rumble, falling dust and pebbles, distant jungle insects, one low heartbeat-like thump as he lifts the idol. No speech, no music.
+
+STYLE
+Photoreal live-action adventure thriller, 16:9 anamorphic look, fine film grain, muted green and teal palette.
+
+POSITIVE LOCKS
+The idol stays palm-sized and identical in every frame: polished gold, egg-shaped head, round ear discs, spiral engraving, closed eyes, closed thin mouth, small stone base attached. It is in his right hand after he lifts it. No glow, no cracks and no light effects on the idol. The explorer's face matches Image 1 in every frame. His hair stays short bleached blonde in every frame, never black or brown, even in shadow. His clothes are dry and dusty, not wet. Only the idol and the explorer move; the altar stays in place.

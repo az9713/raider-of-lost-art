@@ -1,0 +1,32 @@
+SCENE CONTEXT
+Four seconds, ONE continuous take with no cuts, no dialogue. The first frame is given (start image): the young explorer in the dark temple chamber, close up, looking up at the shaking ceiling, the small gold idol held high in his right hand, hat on. The last frame is given (end image): a wide shot from behind him as he runs along a stone ledge in bright daylight toward a huge waterfall, the idol in his right hand, hat on, satchel on. The take must travel from the first frame to the last frame in one unbroken move: he turns and sprints out of the chamber through an open carved stone portal, bursts into daylight, and runs onto the ledge.
+
+ACTIVE REFERENCES
+Start image: matches the first frame exactly, the same chamber, the same light, the same face, the same pose.
+End image: matches the last frame exactly, the same ledge, the same waterfall, the same framing, the same running pose.
+Image 1: the hero character sheet, "the explorer". Same face, short bleached blonde hair, wide-brim tan felt hat, worn dark-brown leather jacket, khaki shirt with rolled sleeves, olive trousers, scuffed boots, brown canvas satchel. 100% matches the reference. Identity and wardrobe locked. In this shot he wears the hat and the satchel. Sheet background and panel layout NOT inherited.
+Image 2: the small polished-gold idol, asleep state only (left panel): eyes closed, thin closed mouth, egg-shaped head, round ear discs, spiral engravings, small dark stone base. Palm-sized, clearly smaller than his head. Sheet background NOT inherited.
+
+LOCATION MAP
+Start: the dark teal temple chamber of the first frame. The way out is an open carved stone portal in the wall, an empty doorway with a decorated lintel and NO door, with bright daylight beyond. End: the narrow stone ledge outside, running toward a huge waterfall, exactly as in the last frame. There is no door at any point.
+
+FORMAT MODE
+ONE continuous take, no cuts, no edits, no jump. The first moment: close up on his face looking up, the floor shaking. Then the camera pulls back and swings around behind him as he turns and sprints for the portal, trembling with the quake. It follows him fast through the portal, the exposure shifting from dark teal to bright overcast daylight, and settles into a smooth glide as he runs out onto the ledge. The take ends in the wide shot from behind exactly as in the last frame, with the waterfall large and close ahead.
+
+PERFORMANCE
+Alarm turns to urgent action: he snaps his gaze down from the ceiling, turns hard and runs. Eyes forward once he runs. He never looks back at the camera. No grin. No speaking.
+
+PHYSICS
+Dust and small stones fall and bounce. The floor shakes. A hairline crack runs across the lintel as he passes under it. Boots slap on flagstone, then damp stone outside. The satchel bounces. He stays DRY.
+
+LIGHTING
+Dark teal inside with a soft shaft of light, then bright cool overcast daylight outside. No warm light except the natural reflection on the gold.
+
+AUDIO
+Deep stone rumble, falling stones, fast boots, hard breathing. As he exits, the roar of the waterfall rises sharply. No speech, no music.
+
+STYLE
+Photoreal live-action adventure thriller, 16:9 anamorphic look, fine film grain, muted green and teal palette. Same look as the start and end images.
+
+POSITIVE LOCKS
+He leaves through the open stone portal, never through the roof gap, and there is no door. The idol stays palm-sized, polished gold, closed eyes, closed thin mouth, small stone base, in his RIGHT hand in every frame. No glow, no cracks, no light effects on the idol. His face matches Image 1. His hair stays short bleached blonde. He wears the hat and the satchel. His clothes are dry. No cuts and no jump at any point; one continuous camera move from the first frame to the last. The first frame and the last frame match the start image and the end image.

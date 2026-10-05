@@ -1,0 +1,35 @@
+SCENE CONTEXT
+The same instant as the end of the previous shot. The temple is shaking, dust and small stones are falling in the dark chamber. The young explorer, hat on, satchel on, the small gold idol in his right hand, spins and sprints for the open stone portal at the back of the chamber, bursts out of the dark into bright overcast daylight, and runs onto a narrow stone ledge outside that leads toward a huge waterfall. Four seconds, ONE continuous take with no cuts, no dialogue.
+
+ACTIVE REFERENCES
+Image 1: the hero character sheet, "the explorer". Same face, short bleached blonde hair, wide-brim tan felt hat, worn dark-brown leather jacket, khaki shirt with rolled sleeves, olive trousers, scuffed boots, brown canvas satchel. 100% matches the reference. Identity, face and wardrobe locked. In this shot he still wears the hat and the satchel. The face comes from the close-up panel on the right; the two headless panels show the costume only. Sheet background, panel layout and dividers NOT inherited.
+Image 2: the small polished-gold idol. Use ONLY the left panel, the ASLEEP state: eyes closed, thin closed mouth, egg-shaped head, round ear discs, spiral engravings, cross-legged tiny body, small dark stone base. Palm-sized, about as tall as his hand from wrist to fingertip, clearly smaller than his head. The center and right panels are NOT used. Sheet background NOT inherited.
+Image 3: the ruined temple chamber. Controls the interior, materials, light and mood. It shows the carved empty stone portal in the back wall on the right: an open doorway frame with a decorated lintel and NO door. Reference framing NOT inherited.
+Image 4: the stone ledge outside and the waterfall. Controls the exterior, materials, light and mood. Reference framing NOT inherited.
+
+LOCATION MAP
+Inside: the dark teal chamber of Image 3, cracked flagstones, the stone altar behind the camera, shafts of teal light. Ahead, the open carved stone portal, an empty doorway with a decorated lintel and vines at its sides, with bright daylight beyond it. Outside: the portal opens directly onto the narrow mossy stone ledge of Image 4. The ledge runs from left to right along the jungle cliff toward a very wide waterfall on the right. There is no door at any point.
+
+FIRST FRAME / BLOCKING
+Wide shot from behind him at his height, inside the chamber. The explorer is mid-stride, running away from the camera toward the bright portal, the idol in his right hand, the satchel bouncing. Dust falls from the ceiling. The floor shakes.
+
+FORMAT MODE
+ONE continuous take, no cuts, no edits, no jump, no change of angle. The camera follows behind him at running speed. For the first second it trembles from the quake. As he passes through the portal it settles into a smooth, fast glide, and the exposure shifts from dark teal to bright overcast daylight. The take ends with him on the ledge, running away from the camera from left to right toward the waterfall, small and wide in frame, the idol in his right hand, hat on, satchel on. This final frame matches the start of the next shot.
+
+PERFORMANCE
+Urgent and alarmed, not panicked. The grin from the previous shot is gone. Eyes forward on the daylight, jaw tight, breath fast. No speaking.
+
+PHYSICS
+Dust and small stones fall and bounce on the flagstones. The floor shakes. A hairline crack runs across the lintel as he passes under it. His boots slap on dry flagstone, then on damp stone outside. The satchel bounces. His jacket flaps. He stays DRY.
+
+LIGHTING
+Dark teal inside with a soft shaft of light, then a bright cool overcast daylight outside. No warm light except the natural reflection on the gold.
+
+AUDIO
+Deep stone rumble, falling stones and dust, fast boots on flagstone, hard breathing. As he exits, the roar of the waterfall rises sharply. No speech, no music.
+
+STYLE
+Photoreal live-action adventure thriller, 16:9 anamorphic look, fine film grain, muted green and teal palette. Same look and colour grade as the previous shots.
+
+POSITIVE LOCKS
+He leaves through the open stone portal in the wall, never through the roof gap, and there is no door. The idol stays palm-sized, polished gold with closed eyes and a closed thin mouth, small stone base attached, in his RIGHT hand in every frame. No glow, no cracks, no light effects on the idol. The explorer's face matches Image 1. His hair stays short bleached blonde, never black or brown. He wears the hat and the satchel throughout. His clothes are dry. There are no cuts, no jump and no change of angle at any point: one continuous camera move. The ledge runs left to right and ends at the waterfall on the right.
