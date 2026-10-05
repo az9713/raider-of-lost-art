@@ -19,7 +19,7 @@
 |---|---|
 | `docs/` | The GitHub Pages site: `index.html` (player), `journey.html`, `film.mp4`, `poster.jpg`, `img/` |
 | `DEVELOPMENT-JOURNEY.md` | The full journey in Markdown |
-| `prompts/` | Every prompt version for the shots, in the structure taught by the course (shot 2 has seven versions) |
+| `prompts/` | Every prompt version for the shots, in the structure taught by the course (shot 2 has seven versions). Some descriptive phrases were removed from these copies |
 | `tools/run_api.py` | Runner for the Seedance 2.0 reference-to-video API. It reads keys from a local `.env`. No keys are committed. |
 | `tools/make_stitch.sh` | The ffmpeg script that joins the five clips |
 | `tools/repaint2.py`, `mouthtrack.py`, `mouthedit2.py` | The OpenCV scripts for the satchel repaint and the idol teeth edit. They are written for one clip at 864x496 and will not transfer as they are. |

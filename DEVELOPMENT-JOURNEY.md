@@ -13,7 +13,7 @@ This document tells the story of building a short AI-generated adventure film wi
 
 > **How to read the evidence.** Sections marked **[reconstructed]** come from the project's `HANDOFF.md` files, written by earlier sessions. The agent that wrote this document did not see those sessions. Everything else is written from the live transcript of the last session, in which the agent was Claude Sonnet 5.5 running in Claude Code.
 
-> **What is not published.** The user's reference photos, the prompt that turned them into the hero, the user's name, e-mail address, account names and local paths are left out on purpose. The generated character sheets are shown in section 3.1b. Prompts for the shots are in `prompts/`. They describe the hero only by costume and hair.
+> **What is not published.** The user's reference photos, the prompt that turned them into the hero, the user's name, e-mail address, account names and local paths are left out on purpose. The generated character sheets are shown in section 3.1b. Prompts for the shots are in `prompts/`. They describe the hero only by costume. Some descriptive phrases were removed from these published copies, so they differ slightly from what was sent to the model.
 
 ---
 
@@ -58,15 +58,15 @@ Wall-clock of one API clip: 157 s (shot 3) and 203 s (shot 4 attempt 1) for 8 s 
 
 Seedance takes reference images. The course teaches "character sheets" so that the same person, costume and props appear in every shot. This project used three, all generated with GPT Image 2.5. The prompts pass them in a fixed order ("Image 1", "Image 2", ...) and say which panel to use.
 
-**The hero, dry (sheet A).** Three panels: a headless front view, a headless back view, and a face close-up. The body panels carry the costume only (jacket, shirt, trousers, boots, satchel, watch). The close-up carries the face, the hair and the hat. Splitting the body from the face is a deliberate choice: the model reads the costume from the body panels and the identity from one face, so it has fewer places to drift. The prompts for shots 1, 2 and the bridge use this sheet. The prompts say "sheet background, panel layout and dividers NOT inherited", because a model otherwise copies the grey backdrop and the panel lines into the scene.
+**The hero, dry (sheet A).** Three panels: a headless front view, a headless back view, and a face close-up. The body panels carry the costume only (jacket, shirt, trousers, boots, satchel, watch). The close-up carries the face and the hat. Splitting the body from the face is a deliberate choice: the model reads the costume from the body panels and the identity from one face, so it has fewer places to drift. The prompts for shots 1, 2 and the bridge use this sheet. The prompts say "sheet background, panel layout and dividers NOT inherited", because a model otherwise copies the grey backdrop and the panel lines into the scene.
 
 ![Hero character sheet, dry: headless front, headless back, face close-up with hat](docs/img/sheet_hero_dry.jpg)
 
 *Figure: the dry hero sheet. Generated image; the original reference is not published.*
 
-**The hero, wet and without the satchel (sheet C2).** Shots 3 and 4 happen after the plunge. The first wet sheet (C) still showed the satchel in its body panels, although the hero throws the satchel away in shot 2. It was regenerated as C2 for 0.5 credit, with the satchel and its strap removed, the hat absent, the hair wet and plastered, a scratch on the left cheek and a soaked costume. The prompts say "He carries NOTHING except the idol."
+**The hero, wet and without the satchel (sheet C2).** Shots 3 and 4 happen after the plunge. The first wet sheet (C) still showed the satchel in its body panels, although the hero throws the satchel away in shot 2. It was regenerated as C2 for 0.5 credit, with the satchel and its strap removed, the hat absent, a scratch on the left cheek and a soaked costume. The prompts say "He carries NOTHING except the idol."
 
-![Hero character sheet, wet: soaked jacket and trousers, wet hair, scratch on the cheek, no hat, no satchel](docs/img/sheet_hero_wet.jpg)
+![Hero character sheet, wet: soaked jacket and trousers, scratch on the cheek, no hat, no satchel](docs/img/sheet_hero_wet.jpg)
 
 *Figure: the wet hero sheet C2, used for shots 3 and 4.*
 

@@ -4,7 +4,7 @@ Four seconds, ONE continuous take with no cuts, no dialogue. The first frame is 
 ACTIVE REFERENCES
 Start image: matches the first frame exactly, the same chamber, the same light, the same face, the same pose.
 End image: matches the last frame exactly, the same ledge, the same waterfall, the same framing, the same running pose.
-Image 1: the hero character sheet, "the explorer". Same face, short bleached blonde hair, wide-brim tan felt hat, worn dark-brown leather jacket, khaki shirt with rolled sleeves, olive trousers, scuffed boots, brown canvas satchel. 100% matches the reference. Identity and wardrobe locked. In this shot he wears the hat and the satchel. Sheet background and panel layout NOT inherited.
+Image 1: the hero character sheet, "the explorer". Same face, wide-brim tan felt hat, worn dark-brown leather jacket, khaki shirt with rolled sleeves, olive trousers, scuffed boots, brown canvas satchel. 100% matches the reference. Identity and wardrobe locked. In this shot he wears the hat and the satchel. Sheet background and panel layout NOT inherited.
 Image 2: the small polished-gold idol, asleep state only (left panel): eyes closed, thin closed mouth, egg-shaped head, round ear discs, spiral engravings, small dark stone base. Palm-sized, clearly smaller than his head. Sheet background NOT inherited.
 
 LOCATION MAP
@@ -29,4 +29,4 @@ STYLE
 Photoreal live-action adventure thriller, 16:9 anamorphic look, fine film grain, muted green and teal palette. Same look as the start and end images.
 
 POSITIVE LOCKS
-He leaves through the open stone portal, never through the roof gap, and there is no door. The idol stays palm-sized, polished gold, closed eyes, closed thin mouth, small stone base, in his RIGHT hand in every frame. No glow, no cracks, no light effects on the idol. His face matches Image 1. His hair stays short bleached blonde. He wears the hat and the satchel. His clothes are dry. No cuts and no jump at any point; one continuous camera move from the first frame to the last. The first frame and the last frame match the start image and the end image.
+He leaves through the open stone portal, never through the roof gap, and there is no door. The idol stays palm-sized, polished gold, closed eyes, closed thin mouth, small stone base, in his RIGHT hand in every frame. No glow, no cracks, no light effects on the idol. His face matches Image 1. He wears the hat and the satchel. His clothes are dry. No cuts and no jump at any point; one continuous camera move from the first frame to the last. The first frame and the last frame match the start image and the end image.

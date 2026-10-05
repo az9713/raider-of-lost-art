@@ -2,7 +2,7 @@ SCENE CONTEXT
 Inside an ancient, overgrown jungle temple chamber. Cool teal-green daylight falls through a collapsed roof. A young explorer lifts a small polished-gold idol off a stone altar. The temple reacts: dust falls and the floor shakes. He looks up, alarmed. Eight seconds, two cuts, no dialogue.
 
 ACTIVE REFERENCES
-Image 1: the hero character sheet, "the explorer". Same face, short bleached blonde hair, wide-brim tan felt hat, worn dark-brown leather jacket, khaki shirt with rolled sleeves, olive trousers, scuffed boots, brown canvas satchel. 100% matches the reference. Identity, face and wardrobe locked. The face comes from the close-up panel on the right; the two headless panels show the costume only. Sheet background, panel layout and dividers NOT inherited.
+Image 1: the hero character sheet, "the explorer". Same face, wide-brim tan felt hat, worn dark-brown leather jacket, khaki shirt with rolled sleeves, olive trousers, scuffed boots, brown canvas satchel. 100% matches the reference. Identity, face and wardrobe locked. The face comes from the close-up panel on the right; the two headless panels show the costume only. Sheet background, panel layout and dividers NOT inherited.
 Image 2: the small polished-gold idol. Use ONLY the left panel, the ASLEEP state: eyes closed, thin closed mouth. 100% matches that panel: egg-shaped head, round ear discs, spiral engravings, cross-legged tiny body, small dark stone base. Palm-sized, about 20 cm tall. The center and right panels are NOT used. Sheet background NOT inherited.
 Image 3: the ruined temple chamber. Controls environment, materials, light and mood only. Reference framing NOT inherited.
 
@@ -33,4 +33,4 @@ STYLE
 Photoreal live-action adventure thriller, 16:9 anamorphic look, fine film grain, muted green and teal palette.
 
 POSITIVE LOCKS
-The idol stays palm-sized and identical in every frame: polished gold, egg-shaped head, round ear discs, spiral engraving, closed eyes, closed thin mouth, small stone base attached. It is in his right hand after he lifts it. No glow, no cracks and no light effects on the idol. The explorer's face matches Image 1 in every frame. His hair stays short bleached blonde in every frame, never black or brown, even in shadow. His clothes are dry and dusty, not wet. Only the idol and the explorer move; the altar stays in place.
+The idol stays palm-sized and identical in every frame: polished gold, egg-shaped head, round ear discs, spiral engraving, closed eyes, closed thin mouth, small stone base attached. It is in his right hand after he lifts it. No glow, no cracks and no light effects on the idol. The explorer's face matches Image 1 in every frame. His clothes are dry and dusty, not wet. Only the idol and the explorer move; the altar stays in place.
