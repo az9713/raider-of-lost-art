@@ -1,9 +1,9 @@
 # Development Journey — "The Idol That Wakes" (working title: raider-of-lost-art)
 
-**Date:** 2026-10-04
-**Deliverable:** the film, playable at <https://az9713.github.io/raider-of-lost-art/> (file: `docs/film.mp4`, 36.25 s, 854x480, 24 fps, with generated audio)
-**Brief:** the first message of the session that wrote this document was only the file name `@HANDOFF.md`. The original brief is reconstructed from that file's "Goal" section: *"A 45-second action-thriller short, 16:9, no dialogue, made with the course workflow from the Higgsfield Academy "Blockbuster 4K" course (script, then assets, then scene generation). Hero: a fictional younger man. An explorer in a jungle temple takes a small gold idol, escapes by waterfall and river, the boat arrives late, and the idol follows him."*
-**Status:** paused by the user at 36.25 s of a planned 45 s. The ending is not made.
+**Date:** 2026-10-04  
+**Deliverable:** the film, playable at <https://az9713.github.io/raider-of-lost-art/> (file: `docs/film.mp4`, 36.25 s, 854x480, 24 fps, with generated audio)  
+**Brief:** the first message of the session that wrote this document was only the file name `@HANDOFF.md`. The original brief is reconstructed from that file's "Goal" section: *"A 45-second action-thriller short, 16:9, no dialogue, made with the course workflow from the Higgsfield Academy "Blockbuster 4K" course (script, then assets, then scene generation). Hero: a fictional younger man. An explorer in a jungle temple takes a small gold idol, escapes by waterfall and river, the boat arrives late, and the idol follows him."*  
+**Status:** paused by the user at 36.25 s of a planned 45 s. The ending is not made.  
 
 ![One frame per second of the final film](docs/img/film_contact_sheet.jpg)
 
