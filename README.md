@@ -31,7 +31,7 @@ Claude Code (Claude Sonnet 5.5 in the last session), Higgsfield (Seedance 2.5 th
 
 ## Not included, on purpose
 
-The reference photos used to create the hero, the prompt that created the hero, the generated character sheets, the individual raw clips, account details and keys.
+The reference photos used to create the hero, the prompt that created the hero, the individual raw clips, account details and keys. The generated character sheets are shown in the journey.
 
 ## Status
 

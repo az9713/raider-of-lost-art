@@ -13,7 +13,7 @@ This document tells the story of building a short AI-generated adventure film wi
 
 > **How to read the evidence.** Sections marked **[reconstructed]** come from the project's `HANDOFF.md` files, written by earlier sessions. The agent that wrote this document did not see those sessions. Everything else is written from the live transcript of the last session, in which the agent was Claude Sonnet 5.5 running in Claude Code.
 
-> **What is not published.** The user's reference photos, the prompt that turned them into the hero, the user's name, e-mail address, account names and local paths are left out on purpose. Prompts for the shots are in `prompts/`. They describe the hero only by costume and hair.
+> **What is not published.** The user's reference photos, the prompt that turned them into the hero, the user's name, e-mail address, account names and local paths are left out on purpose. The generated character sheets are shown in section 3.1b. Prompts for the shots are in `prompts/`. They describe the hero only by costume and hair.
 
 ---
 
@@ -53,6 +53,30 @@ Wall-clock of one API clip: 157 s (shot 3) and 203 s (shot 4 attempt 1) for 8 s 
 4. **Shot 1.** Attempt 1 had two planned cuts. The detector found a hard cut at 6.54 s. The idol looked larger than palm size. The grin read as a smirk. Attempt 2 asked for one continuous take, a stronger grin and a smaller idol. It was accepted. Lesson recorded: *write "one continuous take" and one camera move, never "CUT 1 / CUT 2", when the user wants no visible cut.*
 5. **Shot 2, first API run.** Attempt 1 (7 s, API) was the first money spent on the API. It measured the real price at about $0.119 per second, not the $0.099 the pricing page suggested.
 6. **The missing exit (sharp turn).** The user noticed that no shot showed the hero leaving the temple. A 4 s bridge shot was added. The API version had the wrong hall (a green corridor with a grass floor), the hero looking back at the camera and the waterfall far away. A CLI version with a start frame (the last frame of shot 1) and an end frame (the first frame of shot 2) fixed it.
+
+### 3.1b The character sheets
+
+Seedance takes reference images. The course teaches "character sheets" so that the same person, costume and props appear in every shot. This project used three, all generated with GPT Image 2.5. The prompts pass them in a fixed order ("Image 1", "Image 2", ...) and say which panel to use.
+
+**The hero, dry (sheet A).** Three panels: a headless front view, a headless back view, and a face close-up. The body panels carry the costume only (jacket, shirt, trousers, boots, satchel, watch). The close-up carries the face, the hair and the hat. Splitting the body from the face is a deliberate choice: the model reads the costume from the body panels and the identity from one face, so it has fewer places to drift. The prompts for shots 1, 2 and the bridge use this sheet. The prompts say "sheet background, panel layout and dividers NOT inherited", because a model otherwise copies the grey backdrop and the panel lines into the scene.
+
+![Hero character sheet, dry: headless front, headless back, face close-up with hat](docs/img/sheet_hero_dry.jpg)
+
+*Figure: the dry hero sheet. Generated image; the original reference is not published.*
+
+**The hero, wet and without the satchel (sheet C2).** Shots 3 and 4 happen after the plunge. The first wet sheet (C) still showed the satchel in its body panels, although the hero throws the satchel away in shot 2. It was regenerated as C2 for 0.5 credit, with the satchel and its strap removed, the hat absent, the hair wet and plastered, a scratch on the left cheek and a soaked costume. The prompts say "He carries NOTHING except the idol."
+
+![Hero character sheet, wet: soaked jacket and trousers, wet hair, scratch on the cheek, no hat, no satchel](docs/img/sheet_hero_wet.jpg)
+
+*Figure: the wet hero sheet C2, used for shots 3 and 4.*
+
+**The idol (three states).** One sheet with three versions of the same object: asleep (eyes closed, closed mouth), waking (half-lidded eyes, a thin smile) and awake (wide eyes, a broad grin with teeth). The prompts name the panel to use at each moment. The awake panel was too friendly and too large-eyed for a villain, so the final shot 4 uses the centre panel for its end state and a pixel edit adds the teeth (section 4.4).
+
+![Idol sheet: asleep, waking and awake](docs/img/sheet_idol.jpg)
+
+*Figure: the idol sheet, left to right: asleep, waking, awake.*
+
+What the sheets did not prevent: the idol's scale drifted (section 8, item 17), and in shot 2 a copy of the idol appeared on the ledge in every attempt (section 4.1). A reference image tells the model what an object looks like. It does not tell the model how many of them to draw.
 
 ### 3.2 The last session, in order
 
