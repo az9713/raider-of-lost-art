@@ -245,6 +245,8 @@ First instincts the agent overrode: it first planned to re-run the satchel throw
 19. **Fragile: the frame numbers in the repaint scripts.** The satchel path, the lump coordinates and the face anchors are hard-coded for this one clip at 864x496. They will not transfer.
 20. **Fragile: the fix for shot 3 → 4 continuity.** Shot 4's first frame is close to, not identical with, shot 3's last frame. The join looked continuous in the agent's frame check. Whether it plays smoothly depends on the user's eyes.
 
+21. **The first public commit carried a personal e-mail address.** The agent ran `git commit` in a fresh repository. The global git configuration on the machine held the user's personal e-mail, so the commit author and committer were that address. The agent pushed first and read the identity afterwards. It then amended the commit to GitHub's no-reply address and force-pushed (the branch held only that commit). The old commit stayed fetchable by its SHA through the GitHub API, because GitHub keeps unreachable commits until garbage collection. The push may also appear in the public events feed. The repository cannot be fully cleaned without GitHub's help or a delete-and-recreate, and deleting needs a token scope the CLI did not have. **Rule: set a no-reply `user.email` in the repository before the first commit, and read `git log -1` before the first push.**
+
 ## 9. Human-in-the-loop moments
 
 Every verdict in this project was the user's. The agent never heard the audio or watched motion; it saw 2 fps frame sheets, 4 fps close crops and numeric checks.
@@ -299,6 +301,7 @@ One-liners learned in this project:
 - A prompt that lists what must not appear also names it. A model may then draw it. Test with a short run first.
 - A mask built from a colour test grabs every object of that colour.
 - Read the real balance before the run, not after.
+- Check the commit identity before the first push.
 
 ## 13. Where things stand
 
